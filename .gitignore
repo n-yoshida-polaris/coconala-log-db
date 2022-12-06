@@ -3,3 +3,5 @@ cron/*
 mysql/*
 nginx/*
 php/*
+src/logs/invoke.log
+src/logs/seek.txt
