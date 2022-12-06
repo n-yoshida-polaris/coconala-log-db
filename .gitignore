@@ -1,0 +1,5 @@
+.idea
+cron/*
+mysql/*
+nginx/*
+php/*

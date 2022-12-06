@@ -1,0 +1,480 @@
+2022-12-02 16:39:08,245 [RTMPConnectionExecutor-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 16:39:08,246 [NioProcessor-3] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 16:39:08,247 [NioProcessor-3] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:2
+2022-12-02 16:39:08,247 [RTMPConnectionExecutor-1] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 16:39:08,247 [NioProcessor-3] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 16:39:08,247 [NioProcessor-3] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:73204325 sc-bytes:3940 x-sname:fa31872e-9ae4-4130-a5f8-fca40598a468 x-file-length:273 x-name:administrator
+2022-12-02 16:39:08,247 [vert.x-worker-thread-1] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 16:39:08,248 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 16:39:08,248 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:29) for streamId: administrator
+2022-12-02 16:39:08,248 [NioProcessor-3] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:1
+2022-12-02 16:39:08,248 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 16:39:08,252 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 16:39:08,253 [vert.x-worker-thread-1] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 16:39:08,253 [vert.x-worker-thread-1] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 16:39:08,255 [vert.x-worker-thread-1] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 16:39:09,910 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:2
+2022-12-02 16:39:10,010 [RTMPConnectionExecutor-2] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 16:39:10,010 [RTMPConnectionExecutor-2] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 16:39:10,011 [RTMPConnectionExecutor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@7e93f2d8 new: org.red5.server.stream.ClientBroadcastStream@7e93f2d8
+2022-12-02 16:39:10,012 [RTMPConnectionExecutor-2] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 16:39:10,013 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:46829012-0f60-4377-b163-cb65a571cca0 x-name:administrator
+2022-12-02 16:39:10,015 [RTMPConnectionExecutor-2] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 16:39:10,017 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:39:10,017 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:39:10,017 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 16:39:10,017 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:39:10,017 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 16:39:10,018 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 16:39:10,018 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 16:39:10,019 [vert.x-worker-thread-3] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 16:39:10,020 [vert.x-worker-thread-3] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 16:39:10,020 [vert.x-eventloop-thread-4] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 16:39:10,039 [RTMPConnectionExecutor-3] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 16:39:10,040 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 16:39:10,960 [vert.x-worker-thread-37] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 16:39:10,960 [vert.x-worker-thread-37] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 16:39:10,960 [vert.x-worker-thread-37] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 16:39:10,961 [vert.x-worker-thread-37] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 16:39:10,967 [vert.x-worker-thread-37] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 16:39:10,967 [vert.x-worker-thread-37] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 16:39:10,968 [vert.x-worker-thread-37] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 16:39:10,968 [vert.x-worker-thread-37] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 16:39:10,970 [vert.x-worker-thread-37] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:39:12,969 [vert.x-eventloop-thread-4] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 16:42:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:10 process cpu load:1 available memory: 996276 KB used memory(RSS): 477028 KB
+2022-12-02 16:42:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 16:42:42,713 [NioProcessor-4] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 16:42:42,712 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 16:42:42,714 [NioProcessor-4] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:1
+2022-12-02 16:42:42,714 [NioProcessor-4] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 16:42:42,714 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 16:42:42,714 [NioProcessor-4] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:56919921 sc-bytes:3865 x-sname:46829012-0f60-4377-b163-cb65a571cca0 x-file-length:212 x-name:administrator
+2022-12-02 16:42:42,715 [NioProcessor-4] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:2
+2022-12-02 16:42:42,720 [vert.x-worker-thread-8] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 16:42:42,720 [vert.x-worker-thread-8] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 16:42:42,721 [vert.x-worker-thread-8] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:39) for streamId: administrator
+2022-12-02 16:42:42,721 [vert.x-worker-thread-8] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 16:42:42,725 [vert.x-worker-thread-8] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 16:42:42,726 [vert.x-worker-thread-8] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 16:42:42,727 [vert.x-worker-thread-8] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 16:42:42,730 [vert.x-worker-thread-8] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 16:42:43,951 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:3
+2022-12-02 16:42:44,033 [RTMPConnectionExecutor-2] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 16:42:44,033 [RTMPConnectionExecutor-2] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 16:42:44,034 [RTMPConnectionExecutor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@7c24d6ee new: org.red5.server.stream.ClientBroadcastStream@7c24d6ee
+2022-12-02 16:42:44,035 [RTMPConnectionExecutor-2] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 16:42:44,036 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:08348823-8112-4383-916c-0acf7f17ab3a x-name:administrator
+2022-12-02 16:42:44,038 [RTMPConnectionExecutor-2] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 16:42:44,040 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:42:44,040 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:42:44,040 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 16:42:44,040 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:42:44,040 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 16:42:44,041 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 16:42:44,041 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 16:42:44,042 [vert.x-worker-thread-9] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 16:42:44,042 [vert.x-worker-thread-9] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 16:42:44,042 [vert.x-eventloop-thread-4] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 16:42:44,079 [RTMPConnectionExecutor-3] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 16:42:44,079 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 16:42:44,983 [vert.x-worker-thread-41] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 16:42:44,983 [vert.x-worker-thread-41] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 16:42:44,984 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 16:42:44,984 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 16:42:44,985 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 16:42:44,985 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 16:42:44,986 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 16:42:44,986 [vert.x-worker-thread-41] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 16:42:44,987 [vert.x-worker-thread-41] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:42:46,986 [vert.x-eventloop-thread-4] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 16:43:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 16:47:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 991936 KB used memory(RSS): 484360 KB
+2022-12-02 16:47:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 16:47:32,877 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 16:47:32,878 [NioProcessor-5] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 16:47:32,878 [NioProcessor-5] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:1
+2022-12-02 16:47:32,878 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 16:47:32,878 [NioProcessor-5] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 16:47:32,878 [NioProcessor-5] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:77405728 sc-bytes:3960 x-sname:08348823-8112-4383-916c-0acf7f17ab3a x-file-length:288 x-name:administrator
+2022-12-02 16:47:32,879 [NioProcessor-5] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:3
+2022-12-02 16:47:32,883 [vert.x-worker-thread-5] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 16:47:32,883 [vert.x-worker-thread-5] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 16:47:32,883 [vert.x-worker-thread-5] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:49) for streamId: administrator
+2022-12-02 16:47:32,883 [vert.x-worker-thread-5] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 16:47:32,886 [vert.x-worker-thread-5] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 16:47:32,886 [vert.x-worker-thread-5] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 16:47:32,887 [vert.x-worker-thread-5] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 16:47:32,889 [vert.x-worker-thread-5] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 16:47:33,996 [RTMPConnectionExecutor-1] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:4
+2022-12-02 16:47:34,077 [RTMPConnectionExecutor-1] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 16:47:34,077 [RTMPConnectionExecutor-1] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 16:47:34,079 [RTMPConnectionExecutor-1] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@32d6e094 new: org.red5.server.stream.ClientBroadcastStream@32d6e094
+2022-12-02 16:47:34,079 [RTMPConnectionExecutor-1] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 16:47:34,080 [RTMPConnectionExecutor-1] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:b1e6a473-8786-4a11-96eb-30ae72528537 x-name:administrator
+2022-12-02 16:47:34,082 [RTMPConnectionExecutor-1] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 16:47:34,083 [RTMPConnectionExecutor-1] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:47:34,083 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:47:34,084 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 16:47:34,084 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:47:34,084 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 16:47:34,085 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 16:47:34,085 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 16:47:34,086 [vert.x-worker-thread-8] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 16:47:34,087 [vert.x-worker-thread-8] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 16:47:34,087 [vert.x-eventloop-thread-5] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 16:47:34,110 [RTMPConnectionExecutor-4] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 16:47:34,111 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 16:47:35,016 [vert.x-worker-thread-46] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 16:47:35,017 [vert.x-worker-thread-46] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 16:47:35,017 [vert.x-worker-thread-46] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 16:47:35,017 [vert.x-worker-thread-46] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 16:47:35,018 [vert.x-worker-thread-46] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 16:47:35,019 [vert.x-worker-thread-46] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 16:47:35,019 [vert.x-worker-thread-46] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 16:47:35,019 [vert.x-worker-thread-46] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 16:47:35,021 [vert.x-worker-thread-41] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:47:37,020 [vert.x-eventloop-thread-5] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 16:50:35,586 [NioProcessor-6] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 16:50:35,587 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 16:50:35,588 [NioProcessor-6] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:0
+2022-12-02 16:50:35,588 [NioProcessor-6] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 16:50:35,588 [NioProcessor-6] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:48581940 sc-bytes:3825 x-sname:b1e6a473-8786-4a11-96eb-30ae72528537 x-file-length:181 x-name:administrator
+2022-12-02 16:50:35,589 [NioProcessor-6] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:4
+2022-12-02 16:50:35,597 [vert.x-worker-thread-1] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 16:50:35,597 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 16:50:35,597 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:56) for streamId: administrator
+2022-12-02 16:50:35,597 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 16:50:35,602 [vert.x-worker-thread-1] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 16:50:35,602 [vert.x-worker-thread-1] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 16:50:35,602 [vert.x-worker-thread-1] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 16:50:35,605 [vert.x-worker-thread-1] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 16:50:36,704 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:5
+2022-12-02 16:50:36,795 [RTMPConnectionExecutor-2] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 16:50:36,795 [RTMPConnectionExecutor-2] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 16:50:36,796 [RTMPConnectionExecutor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@13424b6 new: org.red5.server.stream.ClientBroadcastStream@13424b6
+2022-12-02 16:50:36,796 [RTMPConnectionExecutor-2] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 16:50:36,797 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:ed6885f7-a2ca-4a72-ad65-a721d88f21f9 x-name:administrator
+2022-12-02 16:50:36,800 [RTMPConnectionExecutor-2] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 16:50:36,801 [RTMPConnectionExecutor-2] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:50:36,801 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:50:36,801 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 16:50:36,801 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 16:50:36,802 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 16:50:36,802 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 16:50:36,803 [RTMPConnectionExecutor-2] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 16:50:36,803 [vert.x-worker-thread-3] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 16:50:36,804 [vert.x-worker-thread-3] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 16:50:36,804 [vert.x-eventloop-thread-6] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 16:50:36,827 [RTMPConnectionExecutor-1] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 16:50:36,828 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 16:50:37,724 [vert.x-worker-thread-43] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 16:50:37,724 [vert.x-worker-thread-43] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 16:50:37,725 [vert.x-worker-thread-43] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 16:50:37,725 [vert.x-worker-thread-43] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 16:50:37,726 [vert.x-worker-thread-43] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 16:50:37,726 [vert.x-worker-thread-43] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 16:50:37,727 [vert.x-worker-thread-43] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 16:50:37,727 [vert.x-worker-thread-43] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 16:50:37,729 [vert.x-worker-thread-40] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 16:50:39,727 [vert.x-eventloop-thread-6] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 16:52:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 971076 KB used memory(RSS): 500592 KB
+2022-12-02 16:52:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 16:53:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 16:57:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 927496 KB used memory(RSS): 548416 KB
+2022-12-02 16:57:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:02:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 927248 KB used memory(RSS): 549836 KB
+2022-12-02 17:02:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:03:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 17:07:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:10 process cpu load:1 available memory: 924988 KB used memory(RSS): 551480 KB
+2022-12-02 17:07:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:12:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 922112 KB used memory(RSS): 552264 KB
+2022-12-02 17:12:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:13:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 17:17:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 922044 KB used memory(RSS): 553212 KB
+2022-12-02 17:17:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:22:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 912440 KB used memory(RSS): 553592 KB
+2022-12-02 17:22:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:23:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 17:27:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 911784 KB used memory(RSS): 555496 KB
+2022-12-02 17:27:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:32:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:4 process cpu load:1 available memory: 910432 KB used memory(RSS): 554100 KB
+2022-12-02 17:32:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:33:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 17:37:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:9 process cpu load:1 available memory: 904808 KB used memory(RSS): 556792 KB
+2022-12-02 17:37:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:42:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 908416 KB used memory(RSS): 557100 KB
+2022-12-02 17:42:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:43:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 17:47:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 908044 KB used memory(RSS): 557304 KB
+2022-12-02 17:47:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:52:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:16 process cpu load:1 available memory: 902140 KB used memory(RSS): 559172 KB
+2022-12-02 17:52:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 17:53:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 17:57:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 905824 KB used memory(RSS): 559516 KB
+2022-12-02 17:57:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:02:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:4 process cpu load:1 available memory: 900840 KB used memory(RSS): 562416 KB
+2022-12-02 18:02:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:03:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 18:07:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 898464 KB used memory(RSS): 562588 KB
+2022-12-02 18:07:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:12:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:15 process cpu load:1 available memory: 890052 KB used memory(RSS): 562640 KB
+2022-12-02 18:12:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:13:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 18:17:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 893680 KB used memory(RSS): 562772 KB
+2022-12-02 18:17:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:22:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:9 process cpu load:1 available memory: 891316 KB used memory(RSS): 563008 KB
+2022-12-02 18:22:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:23:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 18:27:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 892112 KB used memory(RSS): 563212 KB
+2022-12-02 18:27:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:32:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:16 process cpu load:1 available memory: 882172 KB used memory(RSS): 563252 KB
+2022-12-02 18:32:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:33:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 18:37:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 884952 KB used memory(RSS): 563324 KB
+2022-12-02 18:37:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:42:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:9 process cpu load:1 available memory: 882812 KB used memory(RSS): 563392 KB
+2022-12-02 18:42:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:43:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 18:47:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 883184 KB used memory(RSS): 564556 KB
+2022-12-02 18:47:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:52:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 881908 KB used memory(RSS): 565580 KB
+2022-12-02 18:52:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 18:53:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 18:57:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 881648 KB used memory(RSS): 565716 KB
+2022-12-02 18:57:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:02:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 881840 KB used memory(RSS): 565988 KB
+2022-12-02 19:02:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:03:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 19:07:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 878612 KB used memory(RSS): 569308 KB
+2022-12-02 19:07:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:12:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 878932 KB used memory(RSS): 569448 KB
+2022-12-02 19:12:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:13:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 19:17:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 878716 KB used memory(RSS): 569496 KB
+2022-12-02 19:17:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:22:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 875712 KB used memory(RSS): 570924 KB
+2022-12-02 19:22:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:23:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 19:27:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 873956 KB used memory(RSS): 570956 KB
+2022-12-02 19:27:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:32:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 870600 KB used memory(RSS): 570964 KB
+2022-12-02 19:32:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:33:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 19:37:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 870636 KB used memory(RSS): 570992 KB
+2022-12-02 19:37:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:42:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 870384 KB used memory(RSS): 571008 KB
+2022-12-02 19:42:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:43:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 19:46:23,617 [RTMPConnectionExecutor-2] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 19:46:23,617 [NioProcessor-7] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 19:46:23,618 [NioProcessor-7] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:1
+2022-12-02 19:46:23,618 [NioProcessor-7] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 19:46:23,619 [NioProcessor-7] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:2834685139 sc-bytes:17110 x-sname:ed6885f7-a2ca-4a72-ad65-a721d88f21f9 x-file-length:10546 x-name:administrator
+2022-12-02 19:46:23,620 [NioProcessor-7] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:5
+2022-12-02 19:46:23,625 [vert.x-worker-thread-54] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 19:46:23,625 [vert.x-worker-thread-54] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 19:46:23,626 [vert.x-worker-thread-54] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:63) for streamId: administrator
+2022-12-02 19:46:23,626 [vert.x-worker-thread-54] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 19:46:23,632 [vert.x-worker-thread-54] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 19:46:23,632 [vert.x-worker-thread-54] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 19:46:23,632 [vert.x-worker-thread-54] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 19:46:23,635 [vert.x-worker-thread-54] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 19:46:26,005 [RTMPConnectionExecutor-3] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:6
+2022-12-02 19:46:26,234 [RTMPConnectionExecutor-3] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 19:46:26,234 [RTMPConnectionExecutor-3] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 19:46:26,236 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@2fb68001 new: org.red5.server.stream.ClientBroadcastStream@2fb68001
+2022-12-02 19:46:26,236 [RTMPConnectionExecutor-3] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 19:46:26,237 [RTMPConnectionExecutor-3] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:46366153-c163-4fdc-b48b-3f20fd86aa63 x-name:administrator
+2022-12-02 19:46:26,238 [RTMPConnectionExecutor-3] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 19:46:26,240 [RTMPConnectionExecutor-3] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:46:26,240 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:46:26,240 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 19:46:26,240 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:46:26,241 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 19:46:26,245 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 19:46:26,246 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 19:46:26,246 [vert.x-worker-thread-39] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 19:46:26,247 [vert.x-worker-thread-39] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 19:46:26,248 [vert.x-eventloop-thread-7] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 19:46:26,274 [RTMPConnectionExecutor-1] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 19:46:26,275 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 19:46:27,267 [vert.x-worker-thread-44] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 19:46:27,267 [vert.x-worker-thread-44] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 19:46:27,268 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 19:46:27,268 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 19:46:27,269 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 19:46:27,270 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 19:46:27,270 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 19:46:27,271 [vert.x-worker-thread-44] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 19:46:27,272 [vert.x-worker-thread-24] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:46:29,271 [vert.x-eventloop-thread-7] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 19:47:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 861980 KB used memory(RSS): 571060 KB
+2022-12-02 19:47:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:49:07,062 [NioProcessor-8] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 19:49:07,062 [RTMPConnectionExecutor-3] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 19:49:07,063 [NioProcessor-8] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:1
+2022-12-02 19:49:07,063 [NioProcessor-8] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 19:49:07,063 [NioProcessor-8] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:42978316 sc-bytes:3795 x-sname:46366153-c163-4fdc-b48b-3f20fd86aa63 x-file-length:160 x-name:administrator
+2022-12-02 19:49:07,064 [NioProcessor-8] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:6
+2022-12-02 19:49:07,067 [vert.x-worker-thread-48] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 19:49:07,067 [vert.x-worker-thread-48] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 19:49:07,068 [vert.x-worker-thread-48] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:392) for streamId: administrator
+2022-12-02 19:49:07,068 [vert.x-worker-thread-48] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 19:49:07,075 [vert.x-worker-thread-48] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 19:49:07,076 [vert.x-worker-thread-48] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 19:49:07,076 [vert.x-worker-thread-48] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 19:49:07,079 [vert.x-worker-thread-48] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 19:49:08,850 [RTMPConnectionExecutor-1] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:7
+2022-12-02 19:49:08,926 [RTMPConnectionExecutor-1] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 19:49:08,927 [RTMPConnectionExecutor-1] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 19:49:08,928 [RTMPConnectionExecutor-1] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@760e4dfb new: org.red5.server.stream.ClientBroadcastStream@760e4dfb
+2022-12-02 19:49:08,929 [RTMPConnectionExecutor-1] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 19:49:08,929 [RTMPConnectionExecutor-1] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:f44cb7b4-a057-4c53-a095-8fa1dd46c37c x-name:administrator
+2022-12-02 19:49:08,932 [RTMPConnectionExecutor-1] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 19:49:08,934 [RTMPConnectionExecutor-1] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:49:08,934 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:49:08,934 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 19:49:08,934 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:49:08,934 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 19:49:08,935 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 19:49:08,935 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 19:49:08,936 [vert.x-worker-thread-47] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 19:49:08,937 [vert.x-worker-thread-47] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 19:49:08,937 [vert.x-eventloop-thread-8] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 19:49:08,958 [RTMPConnectionExecutor-4] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 19:49:08,959 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 19:49:09,867 [vert.x-worker-thread-20] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 19:49:09,867 [vert.x-worker-thread-20] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 19:49:09,867 [vert.x-worker-thread-20] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 19:49:09,868 [vert.x-worker-thread-20] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 19:49:09,869 [vert.x-worker-thread-20] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 19:49:09,869 [vert.x-worker-thread-20] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 19:49:09,869 [vert.x-worker-thread-20] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 19:49:09,870 [vert.x-worker-thread-20] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 19:49:09,870 [vert.x-worker-thread-20] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:49:11,871 [vert.x-eventloop-thread-8] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 19:50:30,985 [NioProcessor-9] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 19:50:30,985 [RTMPConnectionExecutor-4] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 19:50:30,986 [NioProcessor-9] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:3
+2022-12-02 19:50:30,987 [NioProcessor-9] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 19:50:30,987 [vert.x-worker-thread-44] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 19:50:30,987 [NioProcessor-9] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:21816612 sc-bytes:3695 x-sname:f44cb7b4-a057-4c53-a095-8fa1dd46c37c x-file-length:82 x-name:administrator
+2022-12-02 19:50:30,987 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 19:50:30,987 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:403) for streamId: administrator
+2022-12-02 19:50:30,987 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 19:50:30,987 [NioProcessor-9] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:7
+2022-12-02 19:50:30,992 [vert.x-worker-thread-44] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 19:50:30,992 [vert.x-worker-thread-44] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 19:50:30,993 [vert.x-worker-thread-44] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 19:50:30,996 [vert.x-worker-thread-44] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 19:50:33,746 [RTMPConnectionExecutor-3] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:8
+2022-12-02 19:50:33,949 [RTMPConnectionExecutor-3] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 19:50:33,949 [RTMPConnectionExecutor-3] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 19:50:33,951 [RTMPConnectionExecutor-3] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@4b7c041b new: org.red5.server.stream.ClientBroadcastStream@4b7c041b
+2022-12-02 19:50:33,951 [RTMPConnectionExecutor-3] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 19:50:33,952 [RTMPConnectionExecutor-3] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:77e9a38c-1951-4480-a65d-3aa3a3161682 x-name:administrator
+2022-12-02 19:50:33,954 [RTMPConnectionExecutor-3] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 19:50:33,955 [RTMPConnectionExecutor-3] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:50:33,956 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:50:33,956 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 19:50:33,956 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:50:33,956 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 19:50:33,957 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 19:50:33,957 [RTMPConnectionExecutor-3] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 19:50:33,957 [vert.x-worker-thread-9] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 19:50:33,958 [vert.x-worker-thread-9] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 19:50:33,959 [vert.x-eventloop-thread-9] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 19:50:33,980 [RTMPConnectionExecutor-1] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 19:50:33,981 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 19:50:34,979 [vert.x-worker-thread-45] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 19:50:34,980 [vert.x-worker-thread-45] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 19:50:34,980 [vert.x-worker-thread-45] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 19:50:34,980 [vert.x-worker-thread-45] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 19:50:34,982 [vert.x-worker-thread-45] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 19:50:34,982 [vert.x-worker-thread-45] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 19:50:34,983 [vert.x-worker-thread-45] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 19:50:34,983 [vert.x-worker-thread-45] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 19:50:34,985 [vert.x-worker-thread-42] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:50:36,984 [vert.x-eventloop-thread-9] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 19:52:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 849840 KB used memory(RSS): 569056 KB
+2022-12-02 19:52:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 19:53:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 19:57:14,547 [NioProcessor-10] INFO  o.r.s.stream.ClientBroadcastStream - Checking mux adaptor to stop administrator
+2022-12-02 19:57:14,546 [RTMPConnectionExecutor-2] WARN  o.red5.server.net.rtmp.RTMPHandler - Not connected, closing connection
+2022-12-02 19:57:14,548 [NioProcessor-10] INFO  io.antmedia.muxer.MuxAdaptor - Calling stop for administrator input queue size:0
+2022-12-02 19:57:14,548 [NioProcessor-10] INFO  o.r.s.stream.ClientBroadcastStream - Mux Adaptor stop called administrator
+2022-12-02 19:57:14,548 [NioProcessor-10] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:60.106.115.84 cs-bytes:107478525 sc-bytes:4105 x-sname:77e9a38c-1951-4480-a65d-3aa3a3161682 x-file-length:400 x-name:administrator
+2022-12-02 19:57:14,548 [vert.x-worker-thread-32] WARN  io.antmedia.muxer.MuxAdaptor - closing adaptor for administrator
+2022-12-02 19:57:14,549 [vert.x-worker-thread-32] INFO  io.antmedia.muxer.MuxAdaptor - close resources for streamId -> administrator
+2022-12-02 19:57:14,549 [NioProcessor-10] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:60.106.115.84 c-client-id:8
+2022-12-02 19:57:14,549 [vert.x-worker-thread-32] INFO  io.antmedia.muxer.MuxAdaptor - Cancelling packet poller task(id:413) for streamId: administrator
+2022-12-02 19:57:14,549 [vert.x-worker-thread-32] INFO  io.antmedia.muxer.HLSMuxer - writing trailer for stream: administrator
+2022-12-02 19:57:14,556 [vert.x-worker-thread-32] INFO  io.antmedia.muxer.HLSMuxer - Delete File onexit:true upload to S3:true stream:administrator hls time:3 hlslist size:3
+2022-12-02 19:57:14,557 [vert.x-worker-thread-32] WARN  io.antmedia.muxer.MuxAdaptor - closed adaptor for administrator
+2022-12-02 19:57:14,557 [vert.x-worker-thread-32] INFO  i.a.AntMediaApplicationAdapter - Closing broadcast stream id: administrator
+2022-12-02 19:57:14,559 [vert.x-worker-thread-32] INFO  i.antmedia.statistic.HlsViewerStats - Reset HLS Stream ID: administrator remove failed or null
+2022-12-02 19:57:16,550 [RTMPConnectionExecutor-4] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:session x-event:connect c-ip:60.106.115.84 c-client-id:9
+2022-12-02 19:57:16,637 [RTMPConnectionExecutor-4] INFO  i.a.s.AcceptOnlyStreamsWithWebhook - AcceptOnlyStreamsWithWebhook is not activated for stream administrator
+2022-12-02 19:57:16,638 [RTMPConnectionExecutor-4] INFO  i.a.s.AcceptOnlyStreamsInDataStore - AcceptOnlyStreamsInDataStore is not activated. Accepting all streams administrator
+2022-12-02 19:57:16,639 [RTMPConnectionExecutor-4] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@40501fd5 new: org.red5.server.stream.ClientBroadcastStream@40501fd5
+2022-12-02 19:57:16,639 [RTMPConnectionExecutor-4] INFO  o.r.s.stream.ClientBroadcastStream - Stream start: administrator
+2022-12-02 19:57:16,640 [RTMPConnectionExecutor-4] INFO  i.a.AntMediaApplicationAdapter - W3C x-category:stream x-event:publish c-ip:60.106.115.84 x-sname:553ebe59-5d7c-46ee-aefa-7a90e97341a5 x-name:administrator
+2022-12-02 19:57:16,642 [RTMPConnectionExecutor-4] ERROR io.antmedia.muxer.MuxAdaptor - io.antmedia.enterprise.adaptive.EncoderAdaptor
+2022-12-02 19:57:16,644 [RTMPConnectionExecutor-4] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:57:16,644 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:57:16,644 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.MuxAdaptor - vertx exist io.vertx.core.impl.VertxImpl@6414e254
+2022-12-02 19:57:16,644 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.MuxAdaptor - serverSettings exist io.antmedia.settings.ServerSettings@d184fbb
+2022-12-02 19:57:16,644 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.MuxAdaptor - adding HLS Muxer for administrator
+2022-12-02 19:57:16,645 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.HLSMuxer - hls time: 3, hls list size: 3 for stream:administrator
+2022-12-02 19:57:16,645 [RTMPConnectionExecutor-4] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while adaptor is being started to prepare is 0
+2022-12-02 19:57:16,646 [vert.x-worker-thread-6] INFO  io.antmedia.muxer.MuxAdaptor - before prepare for administrator
+2022-12-02 19:57:16,647 [vert.x-worker-thread-6] INFO  io.antmedia.muxer.MuxAdaptor - Number of items in the queue while starting: 0 for stream: administrator
+2022-12-02 19:57:16,647 [vert.x-eventloop-thread-10] INFO  io.antmedia.muxer.MuxAdaptor - muxadaptor start has finished with true for stream: administrator
+2022-12-02 19:57:16,670 [RTMPConnectionExecutor-1] INFO  o.red5.server.stream.AbstractStream - metadata read data type -->>>> core map
+2022-12-02 19:57:16,671 [RTMPConnectionExecutor-1] INFO  io.antmedia.muxer.MuxAdaptor - first received frame timestamp: 0 for stream:administrator
+2022-12-02 19:57:17,617 [vert.x-worker-thread-41] INFO  i.a.muxer.parser.AACConfigParser - AAC object type:AAC_LC
+2022-12-02 19:57:17,617 [vert.x-worker-thread-41] INFO  i.a.muxer.parser.AACConfigParser - AAC Sample rate:48000
+2022-12-02 19:57:17,618 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.MuxAdaptor - Video and audio is enabled in stream:administrator queue size: 3
+2022-12-02 19:57:17,618 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.MuxAdaptor - Incoming video width: 1280 height:720 stream:administrator
+2022-12-02 19:57:17,619 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:0 value: 1/1000 for stream:administrator
+2022-12-02 19:57:17,620 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.HLSMuxer - Adding timebase to the input time base map index:1 value: 1/1000 for stream:administrator
+2022-12-02 19:57:17,620 [vert.x-worker-thread-41] INFO  io.antmedia.muxer.HLSMuxer - Header is written for stream:administrator and url:/usr/local/antmedia/webapps/LiveApp/streams/administrator.m3u8
+2022-12-02 19:57:17,621 [vert.x-worker-thread-41] INFO  i.a.AntMediaApplicationAdapter - start publish leaved for stream:administrator
+2022-12-02 19:57:17,624 [vert.x-worker-thread-23] INFO  i.a.AntMediaApplicationAdapter -  Status of stream administrator is set to Broadcasting with result: true
+2022-12-02 19:57:19,622 [vert.x-eventloop-thread-10] INFO  i.a.AntMediaApplicationAdapter - Broadcast absolute time is not available for stream:administrator
+2022-12-02 19:57:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 854796 KB used memory(RSS): 569128 KB
+2022-12-02 19:57:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:02:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 855540 KB used memory(RSS): 569564 KB
+2022-12-02 20:02:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:03:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 20:07:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:9 process cpu load:1 available memory: 853768 KB used memory(RSS): 569640 KB
+2022-12-02 20:07:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:12:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 856848 KB used memory(RSS): 569660 KB
+2022-12-02 20:12:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:13:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 20:17:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 856460 KB used memory(RSS): 569676 KB
+2022-12-02 20:17:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:22:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 851792 KB used memory(RSS): 569760 KB
+2022-12-02 20:22:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:23:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 20:27:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 851796 KB used memory(RSS): 569768 KB
+2022-12-02 20:27:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:32:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 843380 KB used memory(RSS): 569852 KB
+2022-12-02 20:32:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:33:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 20:37:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 843072 KB used memory(RSS): 570084 KB
+2022-12-02 20:37:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:42:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 842300 KB used memory(RSS): 570940 KB
+2022-12-02 20:42:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:43:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 20:47:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 842236 KB used memory(RSS): 571068 KB
+2022-12-02 20:47:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:52:28,226 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 841988 KB used memory(RSS): 571068 KB
+2022-12-02 20:52:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 20:53:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2022-12-02 20:57:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:3 process cpu load:1 available memory: 843284 KB used memory(RSS): 571108 KB
+2022-12-02 20:57:28,229 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 21:02:28,227 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - System cpu load:2 process cpu load:1 available memory: 838832 KB used memory(RSS): 569992 KB
+2022-12-02 21:02:28,228 [vert.x-eventloop-thread-0] INFO  i.antmedia.statistic.StatsCollector - Vertx worker queue size:0 WebRTCVertx worker queue size:0
+2022-12-02 21:03:27,695 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
