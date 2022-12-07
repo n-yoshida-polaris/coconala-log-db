@@ -34,7 +34,6 @@ invokeLogging();
 // MySQLに接続できなければ処理を終了
 $con = getMysqlConnection();
 if ($con === FALSE) {
-    removeLockfile();
     print "DBサーバーに異常が発生しています。管理者へ連絡をお願いします。<br />";
     print mysqli_connect_error();
     return;
@@ -61,24 +60,28 @@ while (($buff = fgets($app_log_fp, LINE_READ_STR_LENGTH)) !== false) {
     // ログ内の日付を取得し、20~から始まらない場合は処理をスキップ
     $logged_date = (string)substr($buff, 0, 10);
     if (substr($logged_date, 0, 2) != "20") {
+        $seeked = getCurrentSeekPoint($app_log_fp);
         continue;
     }
 
     // イベント情報を取得し unpublish or publish でなければ処理をスキップ
     $event = (string)getInnerText($buff, "x-event:", " ");
     if (!in_array($event, REQUIRED_LOG_EVENT_STR)) {
+        $seeked = getCurrentSeekPoint($app_log_fp);
         continue;
     }
 
     // リクエスト元のIPが取得出来なければ処理をスキップ
     $ip = getInnerText($buff, "c-ip:", " ");
     if ($ip === 0) {
+        $seeked = getCurrentSeekPoint($app_log_fp);
         continue;
     }
 
     // 実行者情報を取得出来なければ処理をスキップ
     $logged_x_name = getInnerText($buff, "x-name:");
     if ($logged_x_name === 0 || $logged_x_name === false) {
+        $seeked = getCurrentSeekPoint($app_log_fp);
         continue;
     }
 
@@ -106,7 +109,7 @@ while (($buff = fgets($app_log_fp, LINE_READ_STR_LENGTH)) !== false) {
         break;
     }
 
-    // DBへの
+    // seek値を更新
     $seeked = getCurrentSeekPoint($app_log_fp);
 
 }
